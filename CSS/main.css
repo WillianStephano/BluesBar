@@ -1,0 +1,290 @@
+:root {
+   --azul: #6172cfda;
+   --azul-claro: #2353f0;
+   --azul-transparent: #2353f057;
+   --cinza-font: #353a40;
+   scroll-behavior: smooth;
+}
+
+/* ##################### INTRO ####################### */
+.conteudo-principal{
+   position: absolute;
+}
+
+.intro{
+   background-image:url(../Conteudo/austin-neill-BzxBE7IaKf8-unsplash.jpg);
+   background-size: contain;
+   width: 100%;
+   color: #ffffff;
+   height: 791px;
+}
+
+.conteudo-intro{
+   width: 90%;
+   margin: 5% auto;
+   padding-top: 5%;
+   display: flex;
+   flex-direction: column; 
+   align-items: flex-end;
+}
+
+.titulo-P-intro{
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 700;
+   font-size: 46px;
+   width: 55%;
+   line-height: 1.2;
+}
+
+.subtitulo-intro{
+   font-size: 26px;
+   font-family: 'Nunito Sans', sans-serif;
+   width: 55%;
+   margin: 2% 0 5%;
+   line-height: 1.2em;
+   font-weight: 400;
+}
+
+
+/* ##################### FLUTUANTE ##################### */
+.flutuante{
+   background-color: #7CDBDB;
+   position: relative;
+   width: 32%;
+   top: -200px;
+   right: -800px;
+   font-family: 'Nunito Sans', sans-serif;
+   color: #353a40;
+   padding: 50px;
+}
+
+
+.titulo-flutuante{
+   font-size: 42px;
+   font-weight: 700;
+   margin-bottom: 5%;
+   width: 100%;
+}
+
+.subtitulo-flutuante{
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 1.2em;
+   width: 100%;
+}
+
+.bt-flutuante{
+   background-color: var(--azul);
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-family: 'Nunito Sans', sans-serif;
+   display: inline-flex;
+   justify-content: space-around;
+   padding: 18px;
+   margin-top: 10%;
+}
+
+.bt-flutuante:hover{
+   cursor: pointer;
+   background-color: var(--azul-claro);
+   transition: 350ms;
+}
+
+
+/* ##################### INFO ##################### */
+.info{
+   margin-top: -200px;
+}
+
+.info-conteudo{
+   width: 90%;
+   margin: 0 auto;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.titulo-P-info{
+   width: 80%;
+   font-size: 47px;
+   font-weight: 700;
+   color: #353a40;
+   margin-bottom: 2%;
+}
+
+.texto-info{
+   width: 42%;
+   font-size: 26px;
+   font-weight: 400;
+   line-height: 1.3em;
+   color: #353a40;
+}
+
+/* ############### SOBRE NOS ################ */
+.sobre-nos{
+   background-color:var(--azul);
+   color: #ffffff;
+   width: 90%;
+   margin: 10% auto;
+}
+
+.sobre-nos .container{
+   display: flex;
+}
+
+.texto-sobre-nos{
+   font-size: 42px;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300;
+   margin: 10% auto;
+   width: 42%;
+}
+
+.img-sobre-nos{
+   width: 50%;
+}
+
+
+/* ##################### FAQ ##################### */
+.duvidas{
+   margin: 10% auto;
+   width: 90%;
+   font-family: 'nunito sans',sans-serif;
+}
+
+.duvidas .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.titulo-P-duvidas{
+   font-size: 47px;
+   font-weight: 700;
+   color: #353a40;
+   width: 30%;
+}
+
+.lista-duvidas{
+   width: 70%;
+}
+
+.li-principal{
+   padding: 30px;
+   border: 1px solid #b8b8b8af;
+   font-size: 17px;
+   color: #353a40;
+}
+
+.li-principal:hover{
+   cursor: pointer;
+   color: #ffffff;
+   background-color: var(--azul);
+   font-weight: 800;
+}
+
+
+.li-principal_active{
+   cursor: pointer;
+   color: #ffffff;
+   background-color: var(--azul);
+   font-weight: 800;
+}
+
+.conteudo-duvidas{
+   border: 1px solid #b8b8b8af;
+   padding: 20px 35px;
+   line-height: 1.4em;
+   background-color: #e7f0fd;
+   color: #383838;
+   display: none;
+}
+
+.mostrar-conteudo.conteudo-duvidas{
+   display: block;
+}
+
+
+/* ##################### SESSAO MAPA ##################### */
+.sessao-mapa{
+   background-color: #464B52;
+   color: #ffffff;
+   font-family: 'nunito sans',sans-serif;
+}
+
+.conteudo-sessao-mapa{
+   text-align: center;
+   padding: 5%;
+}
+
+.texto-sessao-mapa{
+   font-size: 47px;
+   font-weight: 900;
+   line-height: 2.2em;
+}
+
+
+/* ##################### RODAPE ##################### */
+.rodape{
+   width: 95%;
+   margin: 5% auto 2%;
+   font-family: 'nunito sans',sans-serif;
+   height: auto;
+}
+
+.redes-sociais{
+   margin-top: 4%;
+}
+
+.icon-redes-sociais{
+   margin-top: 2%;
+}
+
+.lista-icon-sociais{
+   display: flex;
+   gap: 5px;
+}
+
+.lista-icon-sociais li{
+   width: 15px;
+   height: 15px;
+   border-radius: 100%;
+   padding: 10px;
+   border: 2px solid #f0f3f7;
+}
+
+.img-icon{
+   width: 15px;
+   height: 15px;
+}
+
+.linha{
+   border: 1px solid #c7c7c7;
+   border-bottom: none;
+   margin-top: 2%;
+}
+
+.conteudo-final .container {
+   display: flex;
+   justify-content: space-between;
+   width: auto;
+   font-family: 'nunito sans', sans-serif;
+   margin-top: 2%;
+}
+
+.texto-conteudo-final{
+   width: 60%;
+}
+
+.politicas-rodape{
+   text-decoration: none;
+   color: #353a40;
+}
+
+.autorais-rodape{
+   color: #6b7480;
+   line-height: 3.0em;
+}
+
+.endereco{
+   color: #6b7480;
+   line-height: 1.5em;
+}

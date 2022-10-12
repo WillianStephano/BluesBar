@@ -1,0 +1,125 @@
+@media screen and (max-width:425px) {
+   .cabecalho{
+     display: none;
+   }
+
+   .conteudo-principal{
+      width: 100%;
+      position: relative;
+   }
+   
+   .intro{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+   }
+   
+   .conteudo-intro{
+      align-items: flex-start;
+      width: 90%;
+      padding-top: 20%;
+   }
+   
+   .titulo-P-intro{
+      width: 100%;
+      font-size: 29px;
+   }
+   .subtitulo-intro{
+      width: 100%;
+      font-size: 1.1em;
+   }
+
+   /* ##########################################################3 */
+   .flutuante{
+      position: initial;
+      width: 100%;
+      padding: 0;
+   }
+   .conteudo-flutuante{
+      width: 90%;
+      padding: 15% 0;
+      margin: 10% auto;
+   }
+
+   .titulo-flutuante{
+      font-size: 23px;
+   }
+
+   .subtitulo-flutuante{
+      font-size: 18px;
+   }
+   
+
+   /* ##########################################################3 */
+   .info{
+      margin: 10% 0;
+   }
+
+   .titulo-P-info{
+      font-size: 28px;
+   }  
+
+   .texto-info{
+      width: 100%;
+      font-size: 18px;
+   }
+   /* ##########################################################3 */
+   
+   .sobre-nos{
+      width: 100%;
+   }
+   .sobre-nos .container{
+      flex-direction: column;
+   }
+   
+   .texto-sobre-nos{
+      width: 80%;
+      margin: 5% auto;
+      font-size: 35px;
+   }
+
+   .img-sobre-nos{
+      width: 100%;
+   }
+
+   /* ##########################################################3 */
+   
+   .duvidas .container{
+      flex-direction: column;
+   }
+   
+   .titulo-P-duvidas{
+      width: 100%;
+      margin-bottom: 10%;
+      font-size: 29px;
+   }
+   
+   .lista-duvidas{
+      width: 100%;
+   }
+   
+   .li-principal{
+      font-size: 1.0em;
+      padding: 10%;
+   }
+   
+   /* ##########################################################3 */
+   .texto-sessao-mapa{
+      line-height: 1.2em;
+   }
+   
+   /* ##########################################################3 */
+   
+   .rodape .container{
+      width: 100%;
+      flex-wrap: wrap;
+      font-size: 14px;
+   }
+   .sobre-rodape{
+      width: 45%;
+   }
+   .titulo-sobre-rodape{
+      font-size: 16px;
+   }
+}

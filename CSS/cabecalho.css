@@ -1,0 +1,95 @@
+.cabecalho{
+   width: 100%;
+   margin: auto;
+   position: fixed;
+   z-index: 10;
+   background-color: #ffffff;
+   box-shadow: 0px 1px 5px #8f8f8fb7 ;
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+.cabecalho .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 25px;
+}
+
+.conteudo-cabecalho{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 60%;
+}
+
+.logo-conteudo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.img-logo{
+   height: 52px;
+}
+
+.txt-logo {
+   font-weight: 700;
+   font-size: 22px;
+   color: var(--cinza-font);
+}
+
+.menu-lista{
+   display: flex;
+   gap: 25px;
+   list-style: none;
+   color: var(--cinza-font);
+   font-size: 16px;
+   font-weight: 400;
+   margin-top: 1%;
+}
+
+.menu-lista li{
+   border-bottom: 1px solid transparent;
+}
+
+.menu-lista li:hover{
+   transition: 250ms;
+   color: var(--laranja);
+   cursor: pointer;
+   border-bottom: 1px solid var(--azul-claro);
+}
+
+a {
+   text-decoration: none;
+   color: var(--cinza-font);
+}
+
+.grupo-bt{
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.bt-agenda{
+   padding: 15px 20px;
+   background-color: #ffffff;
+   color: var(--azul-claro);
+   font-weight: 700;
+   text-decoration: none;
+   border: 1px solid var(--azul-claro);
+}
+
+.bt-reserva{
+   padding: 15px 10px;
+   background-color: var(--azul-claro);
+   color: #ffffff;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.bt-reserva:hover{
+   cursor: pointer;
+   background-color: #2238b4;
+   transition: 350ms;
+}
