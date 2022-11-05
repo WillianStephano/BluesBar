@@ -1,0 +1,56 @@
+.body {
+   background-color: #f8f8f8;
+}
+
+.conteudo-evento {
+   width: 90%;
+   margin: 5% auto;
+}
+
+.conteudo-evento .container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: center;
+   row-gap: 30px;
+}
+
+.titulo-principal-evento {
+   font-size: 28px;
+   font-family: "Nunito Sans";
+   font-weight: 600;
+   text-align: center;
+}
+
+.card-evento {
+   box-shadow: 0 5px 10px 0 #dbdbdb;
+   border-radius: 6px;
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2% 2%;
+   box-sizing: border-box;
+   width: 45%;
+   max-width: 500px;
+   font-family: "Nunito Sans";
+   line-height: 1.2;
+   text-align: center;
+}
+
+.card-evento:hover {
+   transform: scale(102%);
+   cursor: pointer;
+   transition: 250ms;
+}
+
+.img-previa-evento {
+   width: 90%;
+   border-radius: 3px;
+}
+
+.titulo-evento{
+   font-weight: 600;
+   font-size: 1.2rem;
+   line-height: 2.5rem;
+}

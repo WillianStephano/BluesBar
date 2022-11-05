@@ -1,125 +1,132 @@
-@media screen and (max-width:425px) {
-   .cabecalho{
-     display: none;
+@media screen and (max-width: 425px) {
+   .cabecalho {
+      display: none;
    }
 
-   .conteudo-principal{
+   .conteudo-principal {
       width: 100%;
       position: relative;
    }
-   
-   .intro{
+
+   .intro {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       width: 100%;
    }
-   
-   .conteudo-intro{
+
+   .conteudo-intro {
       align-items: flex-start;
       width: 90%;
       padding-top: 20%;
    }
-   
-   .titulo-P-intro{
+
+   .titulo-P-intro {
       width: 100%;
       font-size: 29px;
    }
-   .subtitulo-intro{
+   .subtitulo-intro {
       width: 100%;
       font-size: 1.1em;
    }
 
    /* ##########################################################3 */
-   .flutuante{
+   .flutuante {
       position: initial;
       width: 100%;
       padding: 0;
    }
-   .conteudo-flutuante{
+   .conteudo-flutuante {
       width: 90%;
       padding: 15% 0;
       margin: 10% auto;
    }
 
-   .titulo-flutuante{
+   .titulo-flutuante {
       font-size: 23px;
    }
 
-   .subtitulo-flutuante{
+   .subtitulo-flutuante {
       font-size: 18px;
    }
-   
 
    /* ##########################################################3 */
-   .info{
+   .info {
       margin: 10% 0;
    }
 
-   .titulo-P-info{
+   .titulo-P-info {
       font-size: 28px;
-   }  
+   }
 
-   .texto-info{
+   .texto-info {
       width: 100%;
       font-size: 18px;
    }
    /* ##########################################################3 */
-   
-   .sobre-nos{
+
+   .sobre-nos {
       width: 100%;
    }
-   .sobre-nos .container{
+   .sobre-nos .container {
       flex-direction: column;
    }
-   
-   .texto-sobre-nos{
+
+   .texto-sobre-nos {
       width: 80%;
       margin: 5% auto;
       font-size: 35px;
    }
 
-   .img-sobre-nos{
+   .img-sobre-nos {
       width: 100%;
    }
 
    /* ##########################################################3 */
-   
-   .duvidas .container{
+
+   .duvidas .container {
       flex-direction: column;
    }
-   
-   .titulo-P-duvidas{
+
+   .titulo-P-duvidas {
       width: 100%;
       margin-bottom: 10%;
       font-size: 29px;
    }
-   
-   .lista-duvidas{
+
+   .lista-duvidas {
       width: 100%;
    }
-   
-   .li-principal{
-      font-size: 1.0em;
+
+   .li-principal {
+      font-size: 1em;
       padding: 10%;
    }
-   
+
    /* ##########################################################3 */
-   .texto-sessao-mapa{
+   .texto-sessao-mapa {
       line-height: 1.2em;
    }
-   
+
    /* ##########################################################3 */
-   
-   .rodape .container{
+
+   .rodape .container {
       width: 100%;
       flex-wrap: wrap;
       font-size: 14px;
    }
-   .sobre-rodape{
+   .sobre-rodape {
       width: 45%;
    }
-   .titulo-sobre-rodape{
+   .titulo-sobre-rodape {
       font-size: 16px;
+   }
+
+   .conteudo-evento .container{
+      flex-direction: column;
+   }
+
+   .card-evento {
+      width: 90%;
    }
 }

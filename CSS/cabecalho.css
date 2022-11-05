@@ -1,3 +1,11 @@
+:root {
+   --azul: #6172cfda;
+   --azul-claro: #2353f0;
+   --azul-transparent: #2353f057;
+   --cinza-font: #353a40;
+   scroll-behavior: smooth;
+}
+
 .cabecalho{
    width: 100%;
    margin: auto;
@@ -68,7 +76,7 @@ a {
    width: 20%;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   gap: 5%;
 }
 
 .bt-agenda{
