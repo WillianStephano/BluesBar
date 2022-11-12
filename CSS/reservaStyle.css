@@ -1,0 +1,55 @@
+.section-reserva {
+   width: 90%;
+   margin: 5% auto;
+}
+
+.form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap: 20px;
+}
+
+.grupo-form {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+}
+
+.form-control {
+   width: 100%;
+   padding: 1.5%;
+   border: 1px solid #808080;
+   border-radius: 3px;
+}
+
+.form-control:focus {
+   outline: 1px solid #2238b4;
+   border-radius: 3px;
+}
+
+.form-label {
+   font-size: 1.1em;
+   font-weight: 600;
+   font-family: "Nunito Sans", sans-serif;
+}
+
+.data {
+   width: 30%;
+}
+
+.btn-form {
+   padding: 0.7% 3%;
+   background-color: var(--azul-claro);
+   color: #ffffff;
+   font-weight: 700;
+   text-decoration: none;
+   border: none;
+}
+
+.btn-form:hover {
+   cursor: pointer;
+   background-color: #2238b4;
+   transition: 350ms;
+}
